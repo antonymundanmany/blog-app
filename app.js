@@ -21,7 +21,7 @@ mongoose.connect("mongodb+srv://antony:andevipr@cluster0.apjpygl.mongodb.net/blo
 
 app.use("/api/blog",blogRoute)
 
-app.listen(3001,()=>{
+app.listen(3002,()=>{
 
         console.log("server is running")
 

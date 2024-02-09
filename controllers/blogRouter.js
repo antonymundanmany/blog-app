@@ -50,8 +50,8 @@ let user=new blogModel(data)
 
 router.post("/signin",async(req,res)=>{
     let input=req.body
-    let emailid=req.body.emailid
-    let data=await blogModel.findOne("emailid":emailid)
+    let emailid =req.body.emailid
+    let data=await blogModel.findOne({"emailid":emailid})
     if(!data)
     {
         return res.json({
