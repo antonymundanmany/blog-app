@@ -13,5 +13,5 @@ const blogSchema = new mongoose.Schema(
     password:String
 }
 
-)
+)   
 module.exports=mongoose.model("blogs",blogSchema)
